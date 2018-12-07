@@ -2,6 +2,8 @@ Pin,Name,Warn Used,Design Signal Pad Name,15 x 15 BGA,Mode 0,Mode 1,Mode 2,Mode 
 X1.A1,X_RMII1_RXER/_MCASP1_FSX,*,gmii1_rxer,J15,gmii1_rxer,rmii1_rxer,spi1_d1_mux1,I2C1_SCL_mux0,mcasp1_fsx_mux1,uart5_rtsn_mux2,uart2_txd_mux1,gpio3[2]
 X1.A3,X_RMII1_RXD0/_GPIO2_21,*,gmii1_rxd0,M16,gmii1_rxd0,rmii1_rxd0,rgmii1_rd0,mcasp1_ahclkx_mux0,mcasp1_ahclkr_mux0,mcasp1_aclkr_mux1,mcasp0_axr3_mux4,gpio2[21]
 X1.A4,X_RMII1_RXD1/_GPIO2_20,*,gmii1_rxd1,L15,gmii1_rxd1,rmii1_rxd1,rgmii1_rd1,mcasp1_axr3_mux0,mcasp1_fsr_mux0,eQEP0_strobe_mux1,mmc2_clk_mux2,gpio2[20]
+X1.A5,NC,*,,,,,,,,,,
+X1.A6,NC,*,,,,,,,,,,
 X1.A8,X_UART3_RX,,gmii1_rxd3,L17,gmii1_rxd3,uart3_rxd_mux0,rgmii1_rd3,mmc0_dat5,mmc1_dat2_mux1,uart1_dtrn_mux0,mcasp0_axr0_mux2,gpio2[18]
 X1.A9,X_UART3_TX,,gmii1_rxd2,L16,gmii1_rxd2,uart3_txd_mux0,rgmii1_rd2,mmc0_dat4,mmc1_dat3_mux1,uart1_rin_mux0,mcasp0_axr1_mux2,gpio2[19]
 X1.A10,X_RMII1_TXEN/_MCASP1_AXR0,*,gmii1_txen,J16,gmii1_txen,rmii1_txen,rgmii1_tctl,timer4_mux0,mcasp1_axr0_mux1,eQEP0_index_mux1,mmc2_cmd_mux2,gpio3[3]
