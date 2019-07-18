@@ -1,4 +1,4 @@
-Pin,Name,Used,Design Signal Pad Name,15 x 15 BGA,Mode 0,Mode 1,Mode 2,Mode 3,Mode 4,Mode 5,Mode 6,Mode 7
+SOM Pin,Name,Used,Pad Name,CPU Pin,Mode 0,Mode 1,Mode 2,Mode 3,Mode 4,Mode 5,Mode 6,Mode 7
 X1.A1,X_RMII1_RXER/_MCASP1_FSX,*,gmii1_rxer,J15,gmii1_rxer,rmii1_rxer,spi1_d1_mux1,I2C1_SCL_mux0,mcasp1_fsx_mux1,uart5_rtsn_mux2,uart2_txd_mux1,gpio3[2]
 X1.A3,X_RMII1_RXD0/_GPIO2_21,*,gmii1_rxd0,M16,gmii1_rxd0,rmii1_rxd0,rgmii1_rd0,mcasp1_ahclkx_mux0,mcasp1_ahclkr_mux0,mcasp1_aclkr_mux1,mcasp0_axr3_mux4,gpio2[21]
 X1.A4,X_RMII1_RXD1/_GPIO2_20,*,gmii1_rxd1,L15,gmii1_rxd1,rmii1_rxd1,rgmii1_rd1,mcasp1_axr3_mux0,mcasp1_fsr_mux0,eQEP0_strobe_mux1,mmc2_clk_mux2,gpio2[20]
@@ -11,7 +11,7 @@ X1.A11,X_RMII1_TXD0/_GPIO0_28,*,gmii1_txd0,K17,gmii1_txd0,rmii1_txd0,rgmii1_td0,
 X1.A13,X_RMII1_TXD1/_GPIO0_21,*,gmii1_txd1,K16,gmii1_txd1,rmii1_txd1,rgmii1_td1,mcasp1_fsr_mux1,mcasp1_axr1_mux0,eQEP0A_in_mux1,mmc1_cmd_mux1,gpio0[21]
 X1.A14,X_MII1_COL/MCASP1_AXR2,,gmii1_col,H16,gmii1_col,rmii2_refclk,spi1_sclk_mux1,uart5_rxd_mux0,mcasp1_axr2_mux1,mmc2_dat3_mux2,mcasp0_axr2_mux4,gpio3[0]
 X1.A15,X_RMII1_CRS/_MCASP1_ACLKX,*,gmii1_crs,H17,gmii1_crs,rmii1_crs_dv,spi1_d0_mux1,I2C1_SDA_mux0,mcasp1_aclkx_mux1,uart5_ctsn_mux2,uart2_rxd_mux1,gpio3[1]
-X1.A16,X_GPMC_AD1,,gpmc_ad1,V7,gpmc_ad1,mmc1_dat1_mux2,,,,,,gpio1[1]
+X1.A16,X_GPMC_AD1,*,gpmc_ad1,V7,gpmc_ad1,mmc1_dat1_mux2,,,,,,gpio1[1]
 X1.A18,X_RMII_REFCLK/_GPIO0_29 (wenn J5 = 1+2),*,rmii1_refclk,H18,rmii1_refclk,xdma_event_intr2_mux0,spi1_cs0_mux1,uart5_txd_mux0,mcasp1_axr3_mux1,mmc0_pow_mux0,mcasp1_ahclkx_mux1,gpio0[29]
 X1.A23,X_GPMC_AD0,*,gpmc_ad0,U7,gpmc_ad0,mmc1_dat0_mux2,,,,,,gpio1[0]
 X1.A24,X_GPMC_AD2,*,gpmc_ad2,R8,gpmc_ad2,mmc1_dat2_mux2,,,,,,gpio1[2]
